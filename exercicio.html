@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: skyblue;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        const nome = window.prompt('Digite seu nome completo: ')
+        document.body.innerHTML = (`Seu nome é ${nome} e possui ${nome.replace(' ', '').length} letras. <br />`)
+        document.body.innerHTML += (`Segunda letra do seu nome é ${nome[1]}. <br />`)
+        document.body.innerHTML += (`As palavras do seu nome são: ${nome.split(' ')}. <br / >`)
+        document.body.innerHTML += (`Seu nome minúsculo: ${nome.toLocaleLowerCase()}. <br />`)
+        document.body.innerHTML += (`Seu nome maiúsculo: ${nome.toLocaleUpperCase()}. <br />`)
+        document.body.innerHTML += (`O primeiro 'A' e o último se localizam em: índice ${nome.indexOf('a')} e ${nome.lastIndexOf('a')}. <br />`)
+        document.body.innerHTML += (`Últimas 3 letras do nome: ${nome.slice(-3)}. <br />`)
+        
+    </script>
+    
+</body>
+</html>
