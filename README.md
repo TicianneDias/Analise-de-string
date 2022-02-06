@@ -1,2 +1,2 @@
 # Analise de string
- Coloque seu nome e analisa dados sobre ele
+ Coloque seu nome e analise dados sobre ele
